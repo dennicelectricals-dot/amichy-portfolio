@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Linkedin, Mail, FileText } from "lucide-react";
+import { ArrowRight, Github, Mail, FileText, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
 
@@ -78,7 +78,7 @@ const Hero = () => {
               className="border-primary/30 hover:border-primary/50 group"
               asChild
             >
-              <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/MIRACLE_A._EZEH.docx" target="_blank" rel="noopener noreferrer" download>
                 <FileText className="mr-2 h-5 w-5" />
                 View CV
               </a>
@@ -91,7 +91,7 @@ const Hero = () => {
             style={{ animationDelay: "0.7s" }}
           >
             <a
-              href="https://github.com/miracleezeh"
+              href="https://github.com/Mimieamichy"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card hover:bg-primary/10 border border-border hover:border-primary transition-all duration-300 hover:scale-110"
@@ -99,15 +99,15 @@ const Hero = () => {
               <Github className="h-5 w-5 text-foreground hover:text-primary" />
             </a>
             <a
-              href="https://linkedin.com/in/miracleezeh"
+              href="https://x.com/js_mimie"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-card hover:bg-primary/10 border border-border hover:border-primary transition-all duration-300 hover:scale-110"
             >
-              <Linkedin className="h-5 w-5 text-foreground hover:text-primary" />
+              <Twitter className="h-5 w-5 text-foreground hover:text-primary" />
             </a>
             <a
-              href="mailto:miracle@example.com"
+              href="mailto:amichy07@gmail.com"
               className="p-3 rounded-full bg-card hover:bg-primary/10 border border-border hover:border-primary transition-all duration-300 hover:scale-110"
             >
               <Mail className="h-5 w-5 text-foreground hover:text-primary" />

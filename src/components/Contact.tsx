@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Send, Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import { Send, Github, Mail, MapPin, Phone, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -56,19 +56,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "miracle@example.com",
-      href: "mailto:miracle@example.com",
+      value: "amichy07@gmail.com",
+      href: "mailto:amichy07@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+234 806 555 7468",
+      href: "tel:+2348065557468",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Lagos, Nigeria",
       href: "#",
     },
   ];
@@ -77,17 +77,17 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/miracleezeh",
+      href: "https://github.com/Mimieamichy",
     },
     {
-      icon: Linkedin,
-      label: "LinkedIn",
-      href: "https://linkedin.com/in/miracleezeh",
+      icon: Twitter,
+      label: "X (Twitter)",
+      href: "https://x.com/js_mimie",
     },
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:miracle@example.com",
+      href: "mailto:amichy07@gmail.com",
     },
   ];
 

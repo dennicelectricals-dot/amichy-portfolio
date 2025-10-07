@@ -1,12 +1,12 @@
-import { Heart, Github, Linkedin, Mail } from "lucide-react";
+import { Heart, Github, Twitter, Mail } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/miracleezeh", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com/in/miracleezeh", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:miracle@example.com", label: "Email" },
+    { icon: Github, href: "https://github.com/Mimieamichy", label: "GitHub" },
+    { icon: Twitter, href: "https://x.com/js_mimie", label: "X (Twitter)" },
+    { icon: Mail, href: "mailto:amichy07@gmail.com", label: "Email" },
   ];
 
   return (
