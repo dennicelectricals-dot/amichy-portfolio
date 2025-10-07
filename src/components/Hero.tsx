@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowRight, Github, Linkedin, Mail, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroBg from "@/assets/hero-bg.jpg";
 
@@ -71,6 +71,17 @@ const Hero = () => {
               className="border-primary text-primary hover:bg-primary/10 transition-all duration-300"
             >
               Contact Me
+            </Button>
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-primary/30 hover:border-primary/50 group"
+              asChild
+            >
+              <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+                <FileText className="mr-2 h-5 w-5" />
+                View CV
+              </a>
             </Button>
           </div>
 
