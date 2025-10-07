@@ -3,39 +3,67 @@ import { Briefcase } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Frontend Developer",
-      company: "TechCorp Solutions",
-      period: "2022 - Present",
+      title: "Frontend Developer",
+      company: "KUMANI Health System, Ghana",
+      period: "Sept - Oct 2025",
       description:
-        "Leading frontend development for enterprise applications. Architected and implemented scalable React solutions, mentored junior developers, and improved application performance by 40%.",
+        "Delivered the frontend for a hospital information system serving 12+ departments (OPD, IPD, pharmacy, lab, radiology, billing, HR/payroll, and executive dashboards), enabling seamless coordination of patient care and administration.",
       achievements: [
-        "Led migration from legacy codebase to React/TypeScript",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Mentored team of 5 junior developers",
+        "Built modular component library reducing frontend delivery time by 30+ development hours per module",
+        "Implemented role-based dashboards for 8+ user groups improving navigation speed and task completion",
+        "Developed complex form workflows with validation, cutting input errors on 5,000+ daily transactions",
+        "Engineered reusable data tables enabling staff to process 100+ lab/billing requests per shift",
       ],
     },
     {
       title: "Frontend Developer",
-      company: "Digital Innovations Inc",
-      period: "2020 - 2022",
+      company: "Federal University Lafia",
+      period: "July - Sept 2025",
       description:
-        "Developed responsive web applications for various clients across different industries. Collaborated with designers and backend developers to deliver high-quality products.",
+        "Delivered frontend of Electronic Tracking & Documentation System (ETDS), a platform that centralized document tracking, enabling 200+ staff and faculty members to upload, monitor, and retrieve official records with accuracy and speed.",
       achievements: [
-        "Built 15+ client projects using React and Vue.js",
-        "Improved website performance and SEO scores",
-        "Integrated third-party APIs and payment gateways",
+        "Implemented modular, component-driven UI system reducing future development effort by 30+ hours per sprint",
+        "Built responsive and accessible layouts optimized for desktop, tablet, and mobile devices",
+        "Integrated frontend with backend REST APIs supporting secure document uploads of 1,000+ active documents",
+        "Enforced type safety with TypeScript, reducing 20+ recurring runtime errors during testing cycles",
       ],
     },
     {
-      title: "Junior Frontend Developer",
-      company: "StartupHub",
-      period: "2019 - 2020",
+      title: "Frontend Developer (Open Source)",
+      company: "Jafi AI",
+      period: "March 2025 - May 2025",
       description:
-        "Started career building and maintaining web applications. Gained experience in modern frontend technologies and agile development practices.",
+        "Contributed to the development of intelligent assistant features using Next.js, TypeScript, and TailwindCSS, enhancing the project's ability to deliver AI-powered interactions to a growing open-source community.",
       achievements: [
-        "Contributed to 10+ web development projects",
-        "Learned React, TypeScript, and modern CSS frameworks",
-        "Participated in code reviews and pair programming",
+        "Designed responsive, accessible UIs for conversational AI interfaces for 150+ active contributors",
+        "Integrated OpenAI-powered conversational components with frontend workflows",
+        "Implemented client-side and server-side rendering techniques to improve performance",
+        "Contributed 20+ commits strengthening project maintainability and modern frontend practices",
+      ],
+    },
+    {
+      title: "Frontend Developer",
+      company: "Osmovic Media",
+      period: "April 2024 - Dec 2024",
+      description:
+        "Designed, developed, and optimized responsive web applications using React, Next.js, and TypeScript, delivering 3 client-facing projects that improved user engagement and cross-device accessibility.",
+      achievements: [
+        "Implemented SSR and SSG for high-traffic landing pages, improving load times and SEO rankings",
+        "Built accessible, visually consistent UIs reducing frontend build time by 20+ hours per sprint",
+        "Collaborated with backend developers to integrate RESTful APIs for hundreds of active users",
+        "Led weekly code reviews with 6 engineers, reducing production bugs and ensuring best practices",
+      ],
+    },
+    {
+      title: "Junior Frontend Developer (Internship)",
+      company: "O2 Innovation",
+      period: "Sept 2023 - Feb 2024",
+      description:
+        "Contributed to the development of scalable React applications, building reusable components that reduced repetitive code and improved development speed across multiple features.",
+      achievements: [
+        "Refactored legacy JavaScript codebases into TypeScript, improving application stability",
+        "Integrated Git version control workflows collaborating with team of 4 developers",
+        "Assisted in building state management solutions improving data consistency across app modules",
       ],
     },
   ];

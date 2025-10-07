@@ -9,22 +9,21 @@ const About = () => {
           
           <div className="prose prose-lg max-w-none">
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              I'm a passionate Frontend Developer with over 4 years of experience building
-              modern, user-centric web applications. I specialize in creating responsive,
-              accessible, and performant interfaces that deliver exceptional user experiences.
+              Frontend Developer with 4 years of experience delivering web applications used by teams of up to 200+ staff and 1000+ end-users. 
+              Skilled in React, Next.js, TypeScript, and Tailwind CSS, with a track record of reducing page load times by several seconds, 
+              improving SEO rankings through SSR/SSG, and streamlining development by building reusable component libraries.
             </p>
             
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              My journey in web development started with a curiosity about how things work
-              on the web, and has evolved into a career dedicated to crafting elegant
-              solutions to complex problems. I'm constantly learning and staying up-to-date
-              with the latest technologies and best practices.
+              Experienced in API integrations and state management, collaborating in agile teams to ship projects with high user adoption. 
+              I specialize in creating modular, component-driven UI systems that standardize interfaces, improve maintainability, and reduce 
+              development time across complex workflows.
             </p>
             
             <p className="text-muted-foreground text-lg leading-relaxed">
-              When I'm not coding, you'll find me contributing to open-source projects,
-              writing technical articles, or exploring new technologies. I'm always excited
-              to collaborate on innovative projects and connect with fellow developers.
+              I'm passionate about building accessible, responsive, and performant web applications that solve real-world problems. 
+              Whether working on healthcare systems, educational platforms, or open-source AI projects, I focus on delivering exceptional 
+              user experiences and collaborating with cross-functional teams to create impactful solutions.
             </p>
           </div>
 
@@ -34,16 +33,16 @@ const About = () => {
               <div className="text-muted-foreground">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-secondary mb-2">50+</div>
-              <div className="text-muted-foreground">Projects Completed</div>
+              <div className="text-4xl font-bold text-secondary mb-2">10+</div>
+              <div className="text-muted-foreground">Projects Delivered</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-accent mb-2">15+</div>
-              <div className="text-muted-foreground">Happy Clients</div>
+              <div className="text-4xl font-bold text-accent mb-2">200+</div>
+              <div className="text-muted-foreground">Staff Users Served</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">100%</div>
-              <div className="text-muted-foreground">Satisfaction Rate</div>
+              <div className="text-4xl font-bold text-primary mb-2">1000+</div>
+              <div className="text-muted-foreground">End Users Reached</div>
             </div>
           </div>
         </div>
