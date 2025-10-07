@@ -1,62 +1,68 @@
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
+import campusCribsImg from "@/assets/campus-cribbs.png";
+import weatherAppImg from "@/assets/weather-app.png";
+import kumaniImg from "@/assets/kumani.png";
+import fetdsImg from "@/assets/fetds.png";
+import taskifyImg from "@/assets/taskify.png";
+import delposImg from "@/assets/delpos.png";
 
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Campus Cribbs",
       description:
-        "A full-featured e-commerce platform with cart management, payment integration, and admin dashboard. Built with React, Redux, and Stripe API.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-      tags: ["React", "Redux", "Stripe", "Tailwind CSS"],
-      github: "#",
-      demo: "#",
+        "Student housing platform that helps students discover and book accommodation near their campus. Features property listings, search filters, and direct booking with landlords.",
+      image: campusCribsImg,
+      tags: ["React", "TypeScript", "Tailwind CSS", "REST API"],
+      github: "https://github.com/Mimieamichy/campus-cribbs",
+      demo: "https://campuscribbs.netlify.app/",
     },
     {
-      title: "Task Management App",
+      title: "Weather Update",
       description:
-        "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=800&q=80",
-      tags: ["React", "Firebase", "TypeScript", "DnD Kit"],
-      github: "#",
-      demo: "#",
+        "Real-time weather application with location search, current conditions, and detailed weather metrics including temperature, humidity, pressure, and wind speed.",
+      image: weatherAppImg,
+      tags: ["React", "OpenWeather API", "CSS3", "Geolocation"],
+      github: "https://github.com/Mimieamichy/weather-update",
+      demo: "https://dweatherupdate.netlify.app/",
     },
     {
-      title: "Weather Dashboard",
+      title: "KUMANI Health System",
       description:
-        "Real-time weather dashboard with geolocation, 7-day forecasts, and beautiful data visualizations using Chart.js and OpenWeather API.",
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&q=80",
-      tags: ["React", "Chart.js", "API Integration", "CSS3"],
-      github: "#",
-      demo: "#",
+        "Comprehensive hospital information system serving 12+ departments including OPD, IPD, pharmacy, lab, radiology, billing, and HR. Features role-based dashboards for staff coordination and patient care management.",
+      image: kumaniImg,
+      tags: ["React", "TypeScript", "Tailwind CSS", "Healthcare"],
+      github: "https://github.com/Mimieamichy/kumani",
+      demo: null,
     },
     {
-      title: "Portfolio CMS",
+      title: "FULafia ETDS",
       description:
-        "Content management system for portfolio websites with drag-and-drop page builder, theme customization, and analytics.",
-      image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
-      tags: ["Next.js", "MongoDB", "Node.js", "Express"],
-      github: "#",
-      demo: "#",
+        "Electronic Tracking & Documentation System for Federal University Lafia. Centralized platform enabling 200+ staff to upload, monitor, and retrieve official records with workflow tracking and document management.",
+      image: fetdsImg,
+      tags: ["React", "TypeScript", "REST API", "Document Management"],
+      github: "https://github.com/Mimieamichy/FULafia-Electronic-Tracking-and-documentation-system",
+      demo: "https://fulafia-electronic-tracking-and-8x35.onrender.com/",
     },
     {
-      title: "Social Media Dashboard",
+      title: "Taskify",
       description:
-        "Analytics dashboard for social media metrics with data visualization, scheduled posts, and multi-platform integration.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-      tags: ["React", "D3.js", "REST API", "Material-UI"],
-      github: "#",
-      demo: "#",
+        "Task management application with bonus points system for completing tasks on time. Features to-do lists, task timing, completion tracking, and gamification elements.",
+      image: taskifyImg,
+      tags: ["React", "TypeScript", "Local Storage", "Tailwind CSS"],
+      github: "https://github.com/Mimieamichy/taskify",
+      demo: "https://taskify-alpha-rust.vercel.app/",
     },
     {
-      title: "Fitness Tracker",
+      title: "DEL POS System",
       description:
-        "Mobile-responsive fitness tracking app with workout plans, progress tracking, and nutrition logging features.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&q=80",
-      tags: ["React Native", "Redux", "Firebase", "Expo"],
-      github: "#",
-      demo: "#",
+        "Point of Sale and inventory management system for retail businesses. Features product catalog, stock tracking, purchase/selling price management, and category filtering.",
+      image: delposImg,
+      tags: ["React", "TypeScript", "Inventory Management", "Dashboard"],
+      github: "https://github.com/Mimieamichy/Pos-inventory-app",
+      demo: "https://handy-dashboard.vercel.app/",
     },
   ];
 
@@ -96,16 +102,18 @@ const Projects = () => {
                         Code
                       </a>
                     </Button>
-                    <Button
-                      size="sm"
-                      className="gradient-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100"
-                      asChild
-                    >
-                      <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        Demo
-                      </a>
-                    </Button>
+                    {project.demo && (
+                      <Button
+                        size="sm"
+                        className="gradient-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100"
+                        asChild
+                      >
+                        <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="h-4 w-4 mr-2" />
+                          Demo
+                        </a>
+                      </Button>
+                    )}
                   </div>
                 </div>
               </CardHeader>
