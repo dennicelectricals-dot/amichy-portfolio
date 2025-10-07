@@ -219,7 +219,7 @@ const Contact = () => {
                   <a
                     key={social.label}
                     href={social.href}
-                    target="_blank"
+                    target={social.href.startsWith('mailto:') ? undefined : "_blank"}
                     rel="noopener noreferrer"
                     className="p-4 rounded-lg bg-card border border-border hover:border-primary/50 transition-all duration-300 hover-lift hover:shadow-glow group"
                     aria-label={social.label}

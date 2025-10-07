@@ -19,7 +19,7 @@ const Footer = () => {
               <a
                 key={social.label}
                 href={social.href}
-                target="_blank"
+                target={social.href.startsWith('mailto:') ? undefined : "_blank"}
                 rel="noopener noreferrer"
                 className="p-2 rounded-full bg-muted hover:bg-primary/10 transition-colors duration-300 group"
                 aria-label={social.label}
