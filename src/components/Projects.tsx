@@ -35,7 +35,7 @@ const Projects = () => {
       image: kumaniImg,
       tags: ["React", "TypeScript", "Tailwind CSS", "Healthcare"],
       github: "https://github.com/Mimieamichy/kumani",
-      demo: null,
+      demo: "https://kumani.netlify.app/",
     },
     {
       title: "FULafia ETDS",
